@@ -15,7 +15,13 @@ body.jumbo {
     body.jumbo { padding-top: 1.5rem; }
 }
 
-
+@media (max-width: 499.98px) {
+    .contact-nav { display: none; }
+}
+@media (max-width: 399.98px) {
+    body { padding-top: 6.5rem; }
+    body.jumbo { padding-top: 4.5rem; }
+}
 
 .jumbotron {
 }
