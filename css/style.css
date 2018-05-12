@@ -19,8 +19,8 @@ body.jumbo {
     .contact-nav { display: none; }
 }
 @media (max-width: 399.98px) {
-    body { padding-top: 6.5rem; }
-    body.jumbo { padding-top: 4.5rem; }
+    body { padding-top: 5rem; }
+    body.jumbo { padding-top: 2.5rem; }
 }
 
 .jumbotron {
