@@ -28,6 +28,11 @@ body.jumbo {
 
 .jumbo {
 }
+
+.display-4 {
+    font-size: 2.5rem;
+}
+
 .iframe-container {
     width: 100%;
     position: relative;
