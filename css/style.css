@@ -1,7 +1,21 @@
 /* Move down content because we have a fixed navbar that is 3.5rem tall */
-@media (max-width: 767.98px) {
-    body { padding-top: 1.5rem; }
+body {
+  padding-top: 5rem;
 }
+
+body.jumbo {
+    padding-top: 0;
+}
+
+@media (max-width: 767.98px) {
+    body.jumbo { padding-top: 0.5rem; }
+}
+
+@media (max-width: 574.98px) {
+    body.jumbo { padding-top: 1.5rem; }
+}
+
+
 
 .jumbotron {
 }
